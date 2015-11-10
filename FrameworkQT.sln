@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrameworkQT", "FrameworkQT\FrameworkQT.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{E370651B-60B2-40E9-A81F-FBB981F69F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F82AEBFE-E0F4-4716-9D93-28377F81AB2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cal", "Modules\cal\cal.vcxproj", "{A4A9AB09-85E5-44BF-BB3D-B7957E79D939}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogWidget", "Modules\DialogWidget\DialogWidget.vcxproj", "{BEEC8948-CAC2-452F-8DF7-25A55A86838A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Slider", "Modules\Slider\Slider.vcxproj", "{352B455D-90A4-489D-86AD-8200064FF5B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LabelView", "Modules\LabelView\LabelView.vcxproj", "{4E0CC734-0884-4BB9-8BF6-EC4172F7005D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+		{E370651B-60B2-40E9-A81F-FBB981F69F66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E370651B-60B2-40E9-A81F-FBB981F69F66}.Debug|Win32.Build.0 = Debug|Win32
+		{E370651B-60B2-40E9-A81F-FBB981F69F66}.Release|Win32.ActiveCfg = Release|Win32
+		{E370651B-60B2-40E9-A81F-FBB981F69F66}.Release|Win32.Build.0 = Release|Win32
+		{A4A9AB09-85E5-44BF-BB3D-B7957E79D939}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4A9AB09-85E5-44BF-BB3D-B7957E79D939}.Debug|Win32.Build.0 = Debug|Win32
+		{A4A9AB09-85E5-44BF-BB3D-B7957E79D939}.Release|Win32.ActiveCfg = Release|Win32
+		{A4A9AB09-85E5-44BF-BB3D-B7957E79D939}.Release|Win32.Build.0 = Release|Win32
+		{BEEC8948-CAC2-452F-8DF7-25A55A86838A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEEC8948-CAC2-452F-8DF7-25A55A86838A}.Debug|Win32.Build.0 = Debug|Win32
+		{BEEC8948-CAC2-452F-8DF7-25A55A86838A}.Release|Win32.ActiveCfg = Release|Win32
+		{BEEC8948-CAC2-452F-8DF7-25A55A86838A}.Release|Win32.Build.0 = Release|Win32
+		{352B455D-90A4-489D-86AD-8200064FF5B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{352B455D-90A4-489D-86AD-8200064FF5B1}.Debug|Win32.Build.0 = Debug|Win32
+		{352B455D-90A4-489D-86AD-8200064FF5B1}.Release|Win32.ActiveCfg = Release|Win32
+		{352B455D-90A4-489D-86AD-8200064FF5B1}.Release|Win32.Build.0 = Release|Win32
+		{4E0CC734-0884-4BB9-8BF6-EC4172F7005D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E0CC734-0884-4BB9-8BF6-EC4172F7005D}.Debug|Win32.Build.0 = Debug|Win32
+		{4E0CC734-0884-4BB9-8BF6-EC4172F7005D}.Release|Win32.ActiveCfg = Release|Win32
+		{4E0CC734-0884-4BB9-8BF6-EC4172F7005D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4A9AB09-85E5-44BF-BB3D-B7957E79D939} = {F82AEBFE-E0F4-4716-9D93-28377F81AB2D}
+		{BEEC8948-CAC2-452F-8DF7-25A55A86838A} = {F82AEBFE-E0F4-4716-9D93-28377F81AB2D}
+		{352B455D-90A4-489D-86AD-8200064FF5B1} = {F82AEBFE-E0F4-4716-9D93-28377F81AB2D}
+		{4E0CC734-0884-4BB9-8BF6-EC4172F7005D} = {F82AEBFE-E0F4-4716-9D93-28377F81AB2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2013_opengl
+	EndGlobalSection
+EndGlobal

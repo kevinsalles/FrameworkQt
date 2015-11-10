@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{22aa15da-c49a-41c3-ae7f-596f149dba0e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{42e1d62a-b666-4d3c-8e3d-c6e95b76a165}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Dépendances internes">
+      <UniqueIdentifier>{47df6d26-f986-435d-96fa-a7465638c341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dépendances internes\cal">
+      <UniqueIdentifier>{42216b4a-f133-4e23-aa21-7f5a2124a164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dépendances internes\DialWidget">
+      <UniqueIdentifier>{f2907cd2-2d93-48fe-b4bb-532dca78bbb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dépendances internes\FrameworkQT">
+      <UniqueIdentifier>{16cda9c3-600b-4a8d-95bf-08594022b994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dépendances internes\Slider">
+      <UniqueIdentifier>{53908b2b-516e-4860-9f3a-1b86be1627cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dépendances internes\LabelView">
+      <UniqueIdentifier>{7fad4ebb-1a1c-482d-9ab5-1305526b2e7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_application.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_application.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_application.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Modules\cal\cal.cpp">
+      <Filter>Dépendances internes\cal</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FrameworkQT\Framework\IModule\imodule.cpp">
+      <Filter>Dépendances internes\FrameworkQT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FrameworkQT\Framework\ModuleManager\modulemanager.cpp">
+      <Filter>Dépendances internes\FrameworkQT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_modulemanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_modulemanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Modules\DialogWidget\dialwidget.cpp">
+      <Filter>Dépendances internes\DialWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dialwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dialwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_controller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_controller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_slider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_slider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Modules\Slider\slider.cpp">
+      <Filter>Dépendances internes\Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_labelview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_labelview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Modules\LabelView\labelview.cpp">
+      <Filter>Dépendances internes\LabelView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="application.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="application.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="application.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Modules\cal\cal.h">
+      <Filter>Dépendances internes\cal</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\FrameworkQT\Framework\ModuleManager\modulemanager.h">
+      <Filter>Dépendances internes\FrameworkQT</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Modules\DialogWidget\dialwidget.h">
+      <Filter>Dépendances internes\DialWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controller.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Modules\Slider\slider.h">
+      <Filter>Dépendances internes\Slider</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Modules\LabelView\labelview.h">
+      <Filter>Dépendances internes\LabelView</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_application.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FrameworkQT\Framework\IModule\imodule.h">
+      <Filter>Dépendances internes\FrameworkQT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
