@@ -13,7 +13,9 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -21,12 +23,24 @@ QT_BEGIN_NAMESPACE
 class Ui_LabelViewClass
 {
 public:
+    QGridLayout *gridLayout;
+    QLCDNumber *lcdNumber;
 
     void setupUi(QWidget *LabelViewClass)
     {
         if (LabelViewClass->objectName().isEmpty())
             LabelViewClass->setObjectName(QStringLiteral("LabelViewClass"));
         LabelViewClass->resize(600, 400);
+        gridLayout = new QGridLayout(LabelViewClass);
+        gridLayout->setSpacing(6);
+        gridLayout->setContentsMargins(11, 11, 11, 11);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        lcdNumber = new QLCDNumber(LabelViewClass);
+        lcdNumber->setObjectName(QStringLiteral("lcdNumber"));
+        lcdNumber->setProperty("intValue", QVariant(1));
+
+        gridLayout->addWidget(lcdNumber, 0, 0, 1, 1);
+
 
         retranslateUi(LabelViewClass);
 

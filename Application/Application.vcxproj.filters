@@ -89,15 +89,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_modulemanager.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="..\Modules\DialogWidget\dialwidget.cpp">
-      <Filter>Dépendances internes\DialWidget</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_dialwidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_dialwidget.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
     <ClCompile Include="controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -125,6 +116,15 @@
     <ClCompile Include="..\Modules\LabelView\labelview.cpp">
       <Filter>Dépendances internes\LabelView</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dialwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dialwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Modules\DialogWidget\dialwidget.cpp">
+      <Filter>Dépendances internes\DialWidget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="application.qrc">
@@ -142,9 +142,6 @@
     <CustomBuild Include="..\FrameworkQT\Framework\ModuleManager\modulemanager.h">
       <Filter>Dépendances internes\FrameworkQT</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\Modules\DialogWidget\dialwidget.h">
-      <Filter>Dépendances internes\DialWidget</Filter>
-    </CustomBuild>
     <CustomBuild Include="controller.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
@@ -153,6 +150,9 @@
     </CustomBuild>
     <CustomBuild Include="..\Modules\LabelView\labelview.h">
       <Filter>Dépendances internes\LabelView</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Modules\DialogWidget\dialwidget.h">
+      <Filter>Dépendances internes\DialWidget</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
